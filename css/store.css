@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header {
+    border: 2px solid rgb(40, 40, 40);
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    display: flex;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.logo:hover {
+    animation: roblox-rotate 2s;
+    animation-iteration-count: infinite;
+}
+
+.roblox_text {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.roblox_logo {
+    display: flex;
+}
+
+.search_roblox {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.roblox_buttons {
+    transition: all;
+    transition-duration: 500ms;
+    display: flex;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.roblox_buttons:hover {
+    background-color: rgb(46, 45, 45);
+}
+
+.roblox_buttons:active {
+    animation: pulse 0.8s;
+    animation-iteration-count: infinite;
+}
+
+.search {
+    width: 230px;
+    height: 20px;
+} 
+
+.search_img {
+    width: 20px;
+    height: 20px;
+    color: rgb(221, 220, 220);
+    right: 0px;
+    position: absolute;
+    top: 1px;
+}
+
+.store_line_information {
+    border-radius: 50px;
+    background-color: rgb(55, 55, 55);
+    height: 2000px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.welcome {
+    width: 1180px;
+    height: 550px;
+    border-radius: 50px;
+    background-image: url('https://sm.ign.com/t/ign_za/news/r/roblox-dev/roblox-developers-conference-2024-everything-announced_fjce.1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 33px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 60px; 
+    font-family: "Inter", sans-serif; 
+    color: rgb(227, 227, 227);
+}
+
+.left-column, .right-column { 
+    width: 48%; 
+    background-color: rgb(50, 50, 50);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.right-column {
+    margin-left: 500px;
+}
+
+.p_hello {
+    display: flex;
+}
+
+.get-discount {
+    width: 300px;
+    height: 75px;
+    font-size: 20px;
+    color: rgb(227, 227, 227);
+    background-color: rgb(50, 50, 50);
+    border-radius: 25px;
+    margin-top: 80px;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.get-discount:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.discount-use-information {
+    color: rgb(227, 227, 227);
+    margin-left: 100px;
+    margin-top: 200px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    width: 1030px;
+    border-radius: 25px;
+    height: fit-content;
+    padding: 30px;
+    background-color: rgb(50, 50, 50);
+}
+
+.Idk_img {
+    margin-left: 350px;
+    width: 400px;
+    height: 400px;
+}
+
+.good-luck {
+    margin-top: 400px;
+    margin-left: 350px;
+    color: rgb(228, 228, 228);
+    padding: 40px;
+    font-size: 50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(50, 50, 50);
+    border-radius: 25px;
+}
+
+.store_line_cards {
+    background-color: rgb(50, 50, 50);
+    border-radius: 50px;
+    height: 2100px;
+    width: 1300px;
+    padding: 30px;
+    margin: 100px;
+    display: flex;
+}
+
+.img-plushie {
+    width: 170px;
+    height: 160px;
+    border-radius: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: auto;
+}
+
+.roblox-card-plushie {
+    margin: 20px;
+    border: 3px solid black;
+    width: 180px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: rgb(77, 77, 77);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.roblox-card-first-row {
+    display: flex;
+}
+
+.roblox-card-second-row {
+    margin-left: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(228, 228, 228);
+    margin-top: 10px;
+}
+
+h2 {
+    color: rgb(228, 228, 228);
+    margin-top: 5px;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+.input-get-plushie {
+    background-color: black;
+    color: white;
+    padding-right: 90px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.input:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes pulse {
+    0% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: 5deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes roblox-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
